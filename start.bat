@@ -1,0 +1,9 @@
+@echo off
+echo Starting ReelAutomation Backend...
+echo Setting up FFmpeg path...
+set PATH=%PATH%;C:\ffmpeg\ffmpeg-master-latest-win64-gpl\bin
+
+echo Starting Node.js server...
+node real-api-backend.js
+
+pause

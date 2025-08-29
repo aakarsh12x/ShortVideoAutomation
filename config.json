@@ -1,0 +1,56 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "localhost"
+  },
+  "cors": {
+    "origin": "*"
+  },
+  "reddit": {
+    "clientId": "",
+    "clientSecret": "",
+    "userAgent": "ReelAutomation/1.0.0"
+  },
+  "openai": {
+    "apiKey": "",
+    "model": "gpt-4"
+  },
+  "anthropic": {
+    "apiKey": "",
+    "model": "claude-3-sonnet-20240229"
+  },
+  "images": {
+    "pexelsApiKey": "",
+    "unsplashAccessKey": "",
+    "pixabayApiKey": ""
+  },
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "bitrate": "5000k"
+  },
+  "audio": {
+    "sampleRate": 44100,
+    "bitrate": "128k"
+  },
+  "captions": {
+    "enabled": true,
+    "style": "modern",
+    "fontSize": 48,
+    "fontColor": "#FFFFFF",
+    "strokeColor": "#000000",
+    "strokeWidth": 2,
+    "position": "bottom",
+    "margin": 50
+  },
+  "output": {
+    "directory": "./output",
+    "tempDirectory": "./temp",
+    "maxFileSize": "100MB"
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/app.log"
+  }
+}
