@@ -1,0 +1,82 @@
+{
+  "name": "short-video-automation",
+  "version": "1.0.0-beta",
+  "description": "A powerful Node.js application that automatically generates short videos from trending Reddit topics using AI-generated scripts, text-to-speech, and image APIs",
+  "main": "real-api-backend.js",
+  "homepage": ".",
+  "scripts": {
+    "start": "node real-api-backend.js",
+    "dev": "nodemon real-api-backend.js",
+    "test": "jest",
+    "build": "react-scripts build",
+    "build:frontend": "react-scripts build",
+    "start:frontend": "react-scripts start",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "video",
+    "automation",
+    "reddit",
+    "ai",
+    "text-to-speech",
+    "ffmpeg",
+    "react",
+    "nodejs"
+  ],
+  "author": "aakarsh12x",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "snoowrap": "^1.23.0",
+    "openai": "^4.20.1",
+    "@anthropic-ai/sdk": "^0.9.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "sharp": "^0.32.6",
+    "gtts": "^2.4.0",
+    "node-cron": "^3.0.3",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.11.0",
+    "joi": "^17.11.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "cheerio": "^1.0.0-rc.12",
+    "jimp": "^0.22.10",
+    "gif-frames": "^0.4.0",
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aakarsh12x/ShortVideoAutomation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aakarsh12x/ShortVideoAutomation/issues"
+  },
+  "homepage": "https://github.com/aakarsh12x/ShortVideoAutomation#readme"
+}
