@@ -215,3 +215,4 @@ class AutomationService {
 }
 
 module.exports = new AutomationService();
+

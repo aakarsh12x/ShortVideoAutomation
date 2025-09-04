@@ -9,3 +9,4 @@ server.listen(3001, () => {
   console.log('Simple test server running on port 3001');
   console.log('Test with: curl http://localhost:3001');
 });
+

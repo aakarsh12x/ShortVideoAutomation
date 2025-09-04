@@ -329,3 +329,4 @@ class CaptionService {
 }
 
 module.exports = new CaptionService();
+

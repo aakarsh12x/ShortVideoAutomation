@@ -148,3 +148,4 @@ const VideoPlayer = ({ videos, currentVideo, onVideoSelect }) => {
 };
 
 export default VideoPlayer;
+
